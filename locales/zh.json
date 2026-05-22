@@ -1,0 +1,300 @@
+{
+  "language": {
+    "label": "语言",
+    "en": "English",
+    "zh": "中文",
+    "es": "Español",
+    "vi": "Tiếng Việt"
+  },
+  "navbar": {
+    "features": "功能",
+    "useCases": "应用场景",
+    "pricing": "价格",
+    "faq": "常见问题",
+    "cta": "免费试用",
+    "toggleMenu": "切换菜单"
+  },
+  "hero": {
+    "badge": "为本地店铺打造的 AI 接听助手",
+    "title": "再也不漏接电话。<brand>OrderAI 帮您接</brand>，让您专心服务顾客。",
+    "subtitle": "专为美甲店、水疗、餐厅和诊所打造。预约、点单、答疑全部搞定 —— 全天候 24/7，支持英语、西班牙语、中文和越南语。10 分钟即可上线，无需更换号码。",
+    "ctaPrimary": "免费试用",
+    "ctaSecondary": "听一段示例通话 →",
+    "ctaNote": "无需信用卡 · 兼容您现有的号码",
+    "card": {
+      "incoming": "来电",
+      "phone": "(713) 555-0142",
+      "answering": "OrderAI 正在接听...",
+      "answeringSub": "正在为来电者下预约 —— 无需人手",
+      "playCaption": "播放示例通话",
+      "playAria": "播放演示通话",
+      "pauseAria": "暂停演示通话"
+    }
+  },
+  "useCases": {
+    "heading": "每一通没接的电话，都是从店里溜走的钱",
+    "subheading": "每一通没接的电话，都是从店里溜走的钱。",
+    "items": [
+      {
+        "industry": "美甲店",
+        "when": "晚 8:42",
+        "loss": "损失 60 美元预约",
+        "problem": "一位新顾客打电话想预约明天的甲油胶美甲，没人接听。",
+        "save": "晚 8:42，新客户预约美甲没人接，丢了 60 美元生意。OrderAI 顺手接住并推广。"
+      },
+      {
+        "industry": "按摩 & 水疗",
+        "when": "周六上午 11 点",
+        "loss": "取消 120 美元护理",
+        "problem": "一位老顾客需要改约，语音信箱已满 —— 这场 90 分钟的护理再没被重新预约。",
+        "save": "周六上午 11 点，老客户改约打不进电话，120 美元订单流失。OrderAI 接听改约，客户留住。"
+      },
+      {
+        "industry": "餐厅",
+        "when": "周五晚 7:15",
+        "loss": "约 180 美元订单流失",
+        "problem": "晚餐高峰 —— 4 通来电排队，2 通在接通前就挂断了。",
+        "save": "周五晚高峰 7:15，4 通来电 2 通挂断，丢失约 180 美元。OrderAI 并行接听全部处理。"
+      },
+      {
+        "industry": "诊所",
+        "when": "周二晚 6:15",
+        "loss": "损失 180 美元复诊",
+        "problem": "一位患者下班后打电话想预约复诊，电话转入了语音信箱。",
+        "save": "OrderAI 直接为患者挂号，当日发送短信确认，并标记给前台跟进。患者留住。"
+      }
+    ]
+  },
+  "features": {
+    "heading": "前台该做的事，每通电话都能办妥",
+    "subheading": "前台该做的事，每一通电话都帮您做到。",
+    "items": [
+      {
+        "title": "全天候接听",
+        "desc": "全天候接听，午高峰、深夜、休息日都不漏接。"
+      },
+      {
+        "title": "智能预约",
+        "desc": "查空档、下预约、复述时间确认。"
+      },
+      {
+        "title": "自动语音留言",
+        "desc": "需要您处理时，自动留言并发短信摘要给您。"
+      },
+      {
+        "title": "多语言支持",
+        "desc": "支持英语、西班牙语、中文、越南语接听。"
+      },
+      {
+        "title": "实时转接员工",
+        "desc": "识别需转人工的来电，温和转接给您的员工。"
+      },
+      {
+        "title": "CRM 同步",
+        "desc": "预约与客户信息自动同步到 Square / Toast / Mindbody。"
+      }
+    ]
+  },
+  "demo": {
+    "heading": "听它接一通真实的电话",
+    "subheading": "选一个行业听听看，这就是顾客打来时听到的声音。",
+    "roleAI": "OrderAI",
+    "roleCaller": "顾客",
+    "audioFallback": "您的浏览器不支持音频元素。",
+    "scriptNote": "完整的约 50 秒脚本在 /scripts 目录 —— 在用 ElevenLabs 生成之前，音频仅为占位。",
+    "tabs": [
+      {
+        "label": "美甲店",
+        "title": "预约一次甲油胶美甲",
+        "blurb": "新客户来电预约美甲，AI 直接预约并顺带推广。",
+        "lines": [
+          { "speaker": "AI", "text": "感谢您致电 Lotus Nails，我是 Aria。今天有什么可以帮您的吗？" },
+          { "speaker": "Customer", "text": "你好！我想预约明天下午的甲油胶美甲。" },
+          { "speaker": "AI", "text": "没问题 —— Linh 那边 2 点 15 有空，要帮您约上吗？" }
+        ]
+      },
+      {
+        "label": "按摩 & 水疗",
+        "title": "改约一次 90 分钟的护理",
+        "blurb": "老客户改约，AI 识别后改到周日并发短信确认。",
+        "lines": [
+          { "speaker": "Customer", "text": "你好，我是 Jennifer —— 我今天下午 2 点的深层组织按摩需要改个时间。" },
+          { "speaker": "AI", "text": "好的 Jennifer。我可以安排周日下午 3 点 —— 还是和 Maya 吗？" },
+          { "speaker": "Customer", "text": "对，太好了。" }
+        ]
+      },
+      {
+        "label": "餐厅",
+        "title": "周五晚上的订位",
+        "blurb": "周五晚高峰订位，AI 给出替代时间并记录庆生需求。",
+        "lines": [
+          { "speaker": "Customer", "text": "今晚 7 点半有四人位吗？" },
+          { "speaker": "AI", "text": "7 点半订满了 —— 我可以安排 8 点，或者 7 点吧台位。哪个方便？" },
+          { "speaker": "Customer", "text": "8 点吧 —— 其实今晚是我们的纪念日。" }
+        ]
+      },
+      {
+        "label": "诊所",
+        "title": "预约一次复诊",
+        "blurb": "下班后患者打来约复诊，OrderAI 完成挂号并发短信确认。",
+        "lines": [
+          { "speaker": "AI", "text": "感谢您致电 Sunrise Family Clinic，我是 Aria。请问有什么可以帮您？" },
+          { "speaker": "Customer", "text": "你好，我想约下周和 Patel 医生的复诊。" },
+          { "speaker": "AI", "text": "没问题 —— 周二上午 11 点半有空，要帮您约上吗？" }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "简单的定价，自己就能赚回成本",
+    "subheading": "通常一笔挽回的订单就够付一个月，随时可取消。",
+    "perMonth": "/月",
+    "badge": {
+      "mostPopular": "最受欢迎"
+    },
+    "starter": {
+      "name": "入门",
+      "price": "$79",
+      "tagline": "适合单家忙碌门店起步使用。",
+      "features": [
+        "每月最多 200 通来电",
+        "1 个门店",
+        "预约功能",
+        "语音留言转文字",
+        "邮件支持"
+      ],
+      "cta": "免费试用"
+    },
+    "growth": {
+      "name": "成长",
+      "price": "$149",
+      "tagline": "适合正在扩张、容不得漏掉任何一笔预约的店铺。",
+      "features": [
+        "每月最多 800 通来电",
+        "最多 3 个门店",
+        "多语言支持（EN / ES / 中文 / Vietnamese）",
+        "CRM 集成（Square、Toast、Mindbody）",
+        "短信确认",
+        "优先支持"
+      ],
+      "cta": "免费试用"
+    },
+    "pro": {
+      "name": "专业",
+      "price": "$249",
+      "tagline": "适合追求完整功能的多门店运营者。",
+      "features": [
+        "无限来电",
+        "门店数量不限",
+        "自定义语音与品牌形象",
+        "专属客户经理",
+        "API 访问权限"
+      ],
+      "cta": "联系销售"
+    }
+  },
+  "testimonials": {
+    "heading": "深受像您一样的店主喜爱",
+    "subheading": "真实客户证言将在早期客户上线后替换占位文字。",
+    "items": [
+      {
+        "quote": "以前我们每个周末都会漏接电话。现在每一通都能被接听并预约。每个月能挽回大约 [X] 笔原本会错过的预约。",
+        "attribution": "[店主姓名，[美甲店] 店主，[城市, ST]]"
+      },
+      {
+        "quote": "前台终于可以专心服务店里的顾客了。OrderAI 接听电话，并给每位顾客发送短信确认。安装大约花了 [X] 分钟。",
+        "attribution": "[店主姓名，[按摩 & 水疗] 店主，[城市, ST]]"
+      },
+      {
+        "quote": "周五高峰时，它能同时接听每一条线路。我们再也听不到顾客说\"我打过电话但没人接\"了。光是挽回的 [X] 笔订单就已经值回票价。",
+        "attribution": "[店主姓名，[餐厅] 店主，[城市, ST]]"
+      },
+      {
+        "quote": "以前下班后的来电都转去了语音信箱。现在患者一打来就能完成预约，复诊提醒也让我们的爽约率降低了大约 [X]%。安装大约花了 [X] 分钟。",
+        "attribution": "[管理者姓名，[诊所] 诊所经理，[城市, ST]]"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "常见问题，逐一解答",
+    "subheading": "上线前您想知道的，这里都有答案。",
+    "q1": {
+      "question": "怎么开始使用？",
+      "answer": "您先注册，告诉我们营业时间和服务项目，然后把现有的电话转接到 OrderAI。大多数店铺大约 10 分钟就能上线 —— 不需要安装，也不用新硬件。"
+    },
+    "q2": {
+      "question": "需要换新的电话号码吗？",
+      "answer": "不用。您继续使用现有号码。当您忙碌或打烊时，来电会自动转给 OrderAI，顾客完全感觉不到差别。"
+    },
+    "q3": {
+      "question": "如果 AI 没听懂顾客怎么办？",
+      "answer": "它会像一位出色的接待员那样追问一句。如果还是处理不了，会平稳转接给您的员工，或者记下清晰的留言并把摘要短信发给您。"
+    },
+    "q4": {
+      "question": "支持哪些语言？",
+      "answer": "支持英语、西班牙语、中文和越南语。它会识别来电者使用的语言，并用同样的语言自然回应。"
+    },
+    "q5": {
+      "question": "能和我的预约或 POS 系统对接吗？",
+      "answer": "可以。成长版和专业版会把预约和顾客信息同步到 Square、Toast 和 Mindbody，让您的日程始终保持准确。"
+    },
+    "q6": {
+      "question": "顾客数据安全吗？",
+      "answer": "通话数据在传输和存储过程中均经过加密，且仅用于处理您的通话。我们从不出售顾客数据。"
+    },
+    "q7": {
+      "question": "安装需要多长时间？",
+      "answer": "单个门店大约 10 分钟。我们会带您完成呼叫转接，并在正式上线前确认一次测试通话。"
+    },
+    "q8": {
+      "question": "取消政策是什么？",
+      "answer": "按月付费，随时可以在控制台取消。没有长期合同，也没有取消费用。"
+    }
+  },
+  "trialForm": {
+    "heading": "开始免费试用",
+    "subheading": "告诉我们您的店铺情况，我们将在一天之内为您完成配置，让 OrderAI 开始接听。",
+    "nameLabel": "姓名",
+    "namePlaceholder": "张三",
+    "businessNameLabel": "店铺名称",
+    "businessNamePlaceholder": "您的店铺",
+    "businessTypeLabel": "店铺类型",
+    "businessTypePlaceholder": "选择店铺类型",
+    "businessTypeNail": "美甲店",
+    "businessTypeSpa": "按摩 & 水疗",
+    "businessTypeRestaurant": "餐厅",
+    "businessTypeClinic": "诊所",
+    "phoneLabel": "电话",
+    "phonePlaceholder": "(555) 123-4567",
+    "emailLabel": "邮箱",
+    "emailPlaceholder": "you@example.com",
+    "submit": "免费试用",
+    "footnote": "无需信用卡 · 我们绝不会分享您的信息",
+    "successAlert": "谢谢！我们会尽快与您联系。"
+  },
+  "footer": {
+    "tagline": "为美甲店、水疗、餐厅和诊所打造的 AI 电话助手。",
+    "industries": {
+      "nail": "美甲店",
+      "spa": "水疗",
+      "restaurant": "餐厅",
+      "clinic": "诊所"
+    },
+    "product": {
+      "title": "产品",
+      "features": "功能",
+      "useCases": "应用场景",
+      "pricing": "价格",
+      "demo": "演示"
+    },
+    "contact": {
+      "title": "联系方式",
+      "hours": "周一至周五 9:00–18:00 PT",
+      "bookCall": "预约通话"
+    },
+    "social": {
+      "label": "关注我们"
+    },
+    "rights": "保留所有权利。"
+  }
+}

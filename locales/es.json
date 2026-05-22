@@ -1,0 +1,300 @@
+{
+  "language": {
+    "label": "Idioma",
+    "en": "English",
+    "zh": "中文",
+    "es": "Español",
+    "vi": "Tiếng Việt"
+  },
+  "navbar": {
+    "features": "Funciones",
+    "useCases": "Casos de uso",
+    "pricing": "Precios",
+    "faq": "FAQ",
+    "cta": "Prueba gratis",
+    "toggleMenu": "Abrir menú"
+  },
+  "hero": {
+    "badge": "Asistente telefónico con IA para negocios locales",
+    "title": "No vuelvas a perder una llamada. <brand>OrderAI contesta</brand> mientras tú te enfocas en tus clientes.",
+    "subtitle": "Hecho para salones de uñas, spas, restaurantes y clínicas. Agenda citas, toma pedidos y responde preguntas — las 24 horas, en inglés, español, mandarín y vietnamita. Listo en 10 minutos. Sin necesidad de un número nuevo.",
+    "ctaPrimary": "Prueba gratis",
+    "ctaSecondary": "Escucha una demo en vivo →",
+    "ctaNote": "Sin tarjeta de crédito · Funciona con tu número actual",
+    "card": {
+      "incoming": "Llamada entrante",
+      "phone": "(713) 555-0142",
+      "answering": "OrderAI está contestando...",
+      "answeringSub": "Agendando a quien llama — sin necesidad de personal",
+      "playCaption": "Reproducir llamada de muestra",
+      "playAria": "Reproducir llamada de demostración",
+      "pauseAria": "Pausar llamada de demostración"
+    }
+  },
+  "useCases": {
+    "heading": "Cada llamada perdida es dinero que se va por la puerta",
+    "subheading": "Esto es lo que realmente le cuesta a tu negocio una sola llamada sin contestar.",
+    "items": [
+      {
+        "industry": "Salón de uñas",
+        "when": "8:42 p. m.",
+        "loss": "Reserva de $60 perdida",
+        "problem": "Una clienta nueva llamó para una manicura en gel para mañana. Nadie contestó.",
+        "save": "OrderAI contesta, la agenda y le menciona la promoción de $10 del martes. Venta salvada."
+      },
+      {
+        "industry": "Masajes y spa",
+        "when": "sábado 11 a. m.",
+        "loss": "Sesión de $120 cancelada",
+        "problem": "Un cliente habitual necesita reprogramar. El buzón de voz está lleno — la sesión de 90 minutos nunca se volvió a agendar.",
+        "save": "OrderAI contesta, ofrece el domingo a las 3 p. m. y confirma por mensaje de texto. Cliente retenido."
+      },
+      {
+        "industry": "Restaurante",
+        "when": "viernes 7:15 p. m.",
+        "loss": "~$180 en pedidos perdidos",
+        "problem": "Hora pico de la cena — 4 personas en espera, 2 cuelgan antes de que alguien pueda contestar.",
+        "save": "OrderAI atiende las 4 en paralelo: 2 reservaciones, 1 pedido para llevar y 1 pregunta sobre el horario."
+      },
+      {
+        "industry": "Clínica",
+        "when": "martes 6:15 p. m.",
+        "loss": "Seguimiento de $180 perdido",
+        "problem": "Un paciente llamó fuera de horario para agendar una consulta de seguimiento. La línea fue al buzón de voz.",
+        "save": "OrderAI agenda la cita, envía una confirmación por SMS el mismo día y la marca para el equipo de recepción. Paciente retenido."
+      }
+    ]
+  },
+  "features": {
+    "heading": "Todo lo que hace tu recepción — en cada llamada",
+    "subheading": "Sin guiones que escribir. Sin equipo nuevo. Simplemente contesta como lo harías tú.",
+    "items": [
+      {
+        "title": "Atención de llamadas 24/7",
+        "desc": "Cada llamada se contesta al primer timbre — en la hora pico del almuerzo, de madrugada o en tu día libre."
+      },
+      {
+        "title": "Agendado inteligente de citas",
+        "desc": "Revisa los espacios disponibles, agenda al cliente y repite la hora para confirmar."
+      },
+      {
+        "title": "Buzón de voz automático",
+        "desc": "Si una solicitud te necesita, toma un mensaje claro y te envía un resumen por texto."
+      },
+      {
+        "title": "Soporte multiidioma",
+        "desc": "Saluda y atiende a quienes llaman en inglés, español, mandarín y vietnamita."
+      },
+      {
+        "title": "Transferencia en vivo al personal",
+        "desc": "Sabe cuándo una llamada debe llegar a una persona y la transfiere con aviso a tu equipo."
+      },
+      {
+        "title": "Sincronización con CRM",
+        "desc": "Envía cada reserva y dato del cliente a Square, Toast o Mindbody."
+      }
+    ]
+  },
+  "demo": {
+    "heading": "Escúchalo contestar una llamada real",
+    "subheading": "Elige un sector y escucha. Así es exactamente como se saludará a quienes te llamen.",
+    "roleAI": "OrderAI",
+    "roleCaller": "Cliente",
+    "audioFallback": "Tu navegador no admite el elemento de audio.",
+    "scriptNote": "Guion completo de ~50 segundos en /scripts — el audio es un marcador de posición hasta generarlo con ElevenLabs.",
+    "tabs": [
+      {
+        "label": "Salón de uñas",
+        "title": "Agendar una manicura en gel",
+        "blurb": "Una clienta nueva llama fuera de horario. OrderAI la agenda y añade una promoción.",
+        "lines": [
+          { "speaker": "AI", "text": "Gracias por llamar a Lotus Nails, habla Aria. ¿En qué puedo ayudarte hoy?" },
+          { "speaker": "Customer", "text": "¡Hola! Quisiera agendar una manicura en gel para mañana por la tarde." },
+          { "speaker": "AI", "text": "Claro que sí — tengo un espacio a las 2:15 con Linh. ¿Te lo aparto?" }
+        ]
+      },
+      {
+        "label": "Masajes y spa",
+        "title": "Reprogramar una sesión de 90 minutos",
+        "blurb": "Una clienta que regresa necesita otra hora. OrderAI la reagenda y confirma por texto.",
+        "lines": [
+          { "speaker": "Customer", "text": "Hola, soy Jennifer — necesito mover mi sesión de tejido profundo de las 2 p. m. de hoy." },
+          { "speaker": "AI", "text": "Por supuesto, Jennifer. Puedo hacerlo el domingo a las 3 p. m. — ¿sigue siendo con Maya?" },
+          { "speaker": "Customer", "text": "Sí, perfecto." }
+        ]
+      },
+      {
+        "label": "Restaurante",
+        "title": "Reservación de viernes por la noche",
+        "blurb": "Hora pico de la cena. OrderAI ofrece una hora alternativa y anota una ocasión especial.",
+        "lines": [
+          { "speaker": "Customer", "text": "¿Mesa para cuatro esta noche a las 7:30?" },
+          { "speaker": "AI", "text": "Las 7:30 está lleno — puedo a las 8:00, o a las 7:00 en la barra. ¿Cuál te funciona?" },
+          { "speaker": "Customer", "text": "Las 8:00 — de hecho, es nuestro aniversario." }
+        ]
+      },
+      {
+        "label": "Clínica",
+        "title": "Agendar una consulta de seguimiento",
+        "blurb": "Un paciente llama fuera de horario para un seguimiento. OrderAI lo agenda y manda una confirmación por SMS.",
+        "lines": [
+          { "speaker": "AI", "text": "Gracias por llamar a Sunrise Family Clinic, habla Aria. ¿En qué puedo ayudarte?" },
+          { "speaker": "Customer", "text": "Hola, necesito agendar una consulta de seguimiento con el doctor Patel para la próxima semana." },
+          { "speaker": "AI", "text": "Por supuesto — tengo un espacio el martes a las 11:30 a. m. ¿Te lo aparto?" }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Precios simples que se pagan solos",
+    "subheading": "Una sola reserva recuperada suele cubrir el mes. Cancela cuando quieras.",
+    "perMonth": "/mes",
+    "badge": {
+      "mostPopular": "MÁS POPULAR"
+    },
+    "starter": {
+      "name": "Inicial",
+      "price": "$79",
+      "tagline": "Para un solo local con mucho movimiento que está empezando.",
+      "features": [
+        "Hasta 200 llamadas/mes",
+        "1 local de negocio",
+        "Agendado de citas",
+        "Transcripción de buzón de voz",
+        "Soporte por correo electrónico"
+      ],
+      "cta": "Prueba gratis"
+    },
+    "growth": {
+      "name": "Crecimiento",
+      "price": "$149",
+      "tagline": "Para negocios en crecimiento que no pueden perder una reserva.",
+      "features": [
+        "Hasta 800 llamadas/mes",
+        "Hasta 3 locales",
+        "Multiidioma (EN / ES / 中文 / Vietnamita)",
+        "Integración con CRM (Square, Toast, Mindbody)",
+        "Confirmaciones por SMS",
+        "Soporte prioritario"
+      ],
+      "cta": "Prueba gratis"
+    },
+    "pro": {
+      "name": "Profesional",
+      "price": "$249",
+      "tagline": "Para operadores con varios locales que lo quieren todo.",
+      "features": [
+        "Llamadas ilimitadas",
+        "Locales ilimitados",
+        "Voz y marca personalizadas",
+        "Gerente de cuenta dedicado",
+        "Acceso a la API"
+      ],
+      "cta": "Contactar a ventas"
+    }
+  },
+  "testimonials": {
+    "heading": "Adorado por dueños de negocios como tú",
+    "subheading": "Aquí irán citas reales una vez que los primeros clientes estén en marcha.",
+    "items": [
+      {
+        "quote": "Antes perdíamos llamadas cada fin de semana. Ahora todas se contestan y se agendan. Estamos recuperando alrededor de [X] reservas al mes que habríamos perdido.",
+        "attribution": "[Nombre del propietario, propietario de [Salón de uñas], [Ciudad, ST]]"
+      },
+      {
+        "quote": "Mi recepción por fin puede enfocarse en los clientes que están en el local. OrderAI atiende el teléfono y le envía a cada quien su confirmación por texto. La configuración tomó unos [X] minutos.",
+        "attribution": "[Nombre del propietario, propietario de [Masajes y spa], [Ciudad, ST]]"
+      },
+      {
+        "quote": "Durante la hora pico del viernes contesta todas las líneas a la vez. Dejamos de escuchar 'llamé pero nadie contestó'. Vale la pena solo por los [X] pedidos salvados.",
+        "attribution": "[Nombre del propietario, propietario de [Restaurante], [Ciudad, ST]]"
+      },
+      {
+        "quote": "Las llamadas fuera de horario se iban al buzón de voz. Ahora los pacientes se agendan en el momento de llamar, y los recordatorios reducen nuestras ausencias en cerca del [X]%. La configuración tomó unos [X] minutos.",
+        "attribution": "[Nombre del propietario, gerente de [Clínica], [Ciudad, ST]]"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Preguntas, respondidas",
+    "subheading": "Todo lo que necesitas saber antes de tu primera llamada.",
+    "q1": {
+      "question": "¿Cómo empiezo?",
+      "answer": "Te registras, nos dices tu horario y tus servicios, y desvías tu línea actual a OrderAI. La mayoría de los negocios están en marcha en unos 10 minutos — sin instalaciones, sin equipo nuevo."
+    },
+    "q2": {
+      "question": "¿Necesito un número de teléfono nuevo?",
+      "answer": "No. Conservas tu número actual. Las llamadas se desvían a OrderAI cuando estás ocupado o cerrado, así los clientes nunca notan la diferencia."
+    },
+    "q3": {
+      "question": "¿Y si la IA no entiende a un cliente?",
+      "answer": "Hace una pregunta para aclarar, igual que un buen recepcionista. Si aun así no puede ayudar, transfiere con aviso a tu personal o toma un mensaje claro y te envía un resumen por texto."
+    },
+    "q4": {
+      "question": "¿Qué idiomas admite?",
+      "answer": "Inglés, español, mandarín y vietnamita. Detecta el idioma de quien llama y responde con naturalidad en ese idioma."
+    },
+    "q5": {
+      "question": "¿Se conecta con mi sistema de reservas o de punto de venta?",
+      "answer": "Sí. Los planes Crecimiento y Profesional sincronizan reservas y datos de clientes con Square, Toast y Mindbody para que tu calendario se mantenga al día."
+    },
+    "q6": {
+      "question": "¿Están seguros los datos de mis clientes?",
+      "answer": "Los datos de las llamadas se cifran en tránsito y en reposo, y solo se usan para atender tus llamadas. Nunca vendemos los datos de los clientes."
+    },
+    "q7": {
+      "question": "¿Cuánto tarda la configuración?",
+      "answer": "Alrededor de 10 minutos para un solo local. Te guiamos en el desvío y confirmamos una llamada de prueba antes de que entres en marcha."
+    },
+    "q8": {
+      "question": "¿Cuál es la política de cancelación?",
+      "answer": "Mes a mes, cancela cuando quieras desde tu panel. Sin contrato a largo plazo y sin cargo por cancelación."
+    }
+  },
+  "trialForm": {
+    "heading": "Comienza tu prueba gratis",
+    "subheading": "Cuéntanos sobre tu negocio. Te configuramos y dejamos a OrderAI contestando en un día.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Juan Pérez",
+    "businessNameLabel": "Nombre del negocio",
+    "businessNamePlaceholder": "Tu negocio",
+    "businessTypeLabel": "Tipo de negocio",
+    "businessTypePlaceholder": "Selecciona el tipo de negocio",
+    "businessTypeNail": "Salón de uñas",
+    "businessTypeSpa": "Masajes y spa",
+    "businessTypeRestaurant": "Restaurante",
+    "businessTypeClinic": "Clínica",
+    "phoneLabel": "Teléfono",
+    "phonePlaceholder": "(555) 123-4567",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Prueba gratis",
+    "footnote": "Sin tarjeta de crédito · Nunca compartiremos tu información",
+    "successAlert": "¡Gracias! Nos pondremos en contacto."
+  },
+  "footer": {
+    "tagline": "El asistente telefónico con IA para salones de uñas, spas, restaurantes y clínicas.",
+    "industries": {
+      "nail": "Salones de uñas",
+      "spa": "Spas",
+      "restaurant": "Restaurantes",
+      "clinic": "Clínicas"
+    },
+    "product": {
+      "title": "Producto",
+      "features": "Funciones",
+      "useCases": "Casos de uso",
+      "pricing": "Precios",
+      "demo": "Demo"
+    },
+    "contact": {
+      "title": "Contacto",
+      "hours": "Lun–Vie, 9–6 PT",
+      "bookCall": "Agenda una llamada"
+    },
+    "social": {
+      "label": "Síguenos"
+    },
+    "rights": "Todos los derechos reservados."
+  }
+}

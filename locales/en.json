@@ -1,0 +1,300 @@
+{
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "zh": "中文",
+    "es": "Español",
+    "vi": "Tiếng Việt"
+  },
+  "navbar": {
+    "features": "Features",
+    "useCases": "Use Cases",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "cta": "Start Free Trial",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "badge": "AI phone assistant for local shops",
+    "title": "Never miss another call. <brand>OrderAI picks up</brand> while you focus on your customers.",
+    "subtitle": "Built for nail salons, spas, restaurants, and clinics. Books appointments, takes orders, and answers questions — 24/7, in English, Spanish, Mandarin, and Vietnamese. Set up in 10 minutes. No new phone number needed.",
+    "ctaPrimary": "Start Free Trial",
+    "ctaSecondary": "Hear a Live Demo →",
+    "ctaNote": "No credit card required · Works with your current number",
+    "card": {
+      "incoming": "Incoming Call",
+      "phone": "(713) 555-0142",
+      "answering": "OrderAI is answering...",
+      "answeringSub": "Booking the caller in — no staff needed",
+      "playCaption": "Play sample call",
+      "playAria": "Play demo call",
+      "pauseAria": "Pause demo call"
+    }
+  },
+  "useCases": {
+    "heading": "Every missed call is money walking out the door",
+    "subheading": "Here's what a single unanswered call really costs your shop.",
+    "items": [
+      {
+        "industry": "Nail Salon",
+        "when": "8:42 PM",
+        "loss": "$60 booking lost",
+        "problem": "A new client called for tomorrow's gel manicure. No one picked up.",
+        "save": "OrderAI answers, books her in, and mentions Tuesday's $10 promo. Sale saved."
+      },
+      {
+        "industry": "Massage & Spa",
+        "when": "Saturday 11 AM",
+        "loss": "$120 session cancelled",
+        "problem": "An existing client needs to reschedule. Voicemail is full — 90-min session never rebooked.",
+        "save": "OrderAI picks up, offers Sunday 3 PM, and confirms via text. Client retained."
+      },
+      {
+        "industry": "Restaurant",
+        "when": "Friday 7:15 PM",
+        "loss": "~$180 in lost orders",
+        "problem": "Dinner rush — 4 callers in line, 2 hang up before anyone can answer.",
+        "save": "OrderAI handles all 4 in parallel: 2 reservations, 1 takeout order, 1 hours question."
+      },
+      {
+        "industry": "Clinic",
+        "when": "Tuesday 6:15 PM",
+        "loss": "$180 follow-up missed",
+        "problem": "A patient called after hours to book a follow-up visit. The line went to voicemail.",
+        "save": "OrderAI books the appointment, sends a same-day SMS confirmation, and flags it for the front desk. Patient retained."
+      }
+    ]
+  },
+  "features": {
+    "heading": "Everything your front desk does — on every call",
+    "subheading": "No scripts to write. No new hardware. It just answers the way you would.",
+    "items": [
+      {
+        "title": "24/7 Call Answering",
+        "desc": "Every call gets answered on the first ring — lunch rush, late night, or your day off."
+      },
+      {
+        "title": "Smart Appointment Booking",
+        "desc": "Checks open slots, books the client, and reads back the time to confirm."
+      },
+      {
+        "title": "Automatic Voicemail",
+        "desc": "If a request needs you, it takes a clear message and texts you a written summary."
+      },
+      {
+        "title": "Multi-language Support",
+        "desc": "Greets and helps callers in English, Spanish, Mandarin, and Vietnamese."
+      },
+      {
+        "title": "Live Transfer to Staff",
+        "desc": "Knows when a call should reach a person and warm-transfers it to your team."
+      },
+      {
+        "title": "CRM Sync",
+        "desc": "Pushes every booking and customer detail into Square, Toast, or Mindbody."
+      }
+    ]
+  },
+  "demo": {
+    "heading": "Hear it answer a real call",
+    "subheading": "Pick an industry and listen. This is exactly how your callers will be greeted.",
+    "roleAI": "OrderAI",
+    "roleCaller": "Caller",
+    "audioFallback": "Your browser does not support the audio element.",
+    "scriptNote": "Full ~50-second script in /scripts — audio is a placeholder until generated with ElevenLabs.",
+    "tabs": [
+      {
+        "label": "Nail Salon",
+        "title": "Booking a gel manicure",
+        "blurb": "A new client calls after hours. OrderAI books her and adds a promo.",
+        "lines": [
+          { "speaker": "AI", "text": "Thanks for calling Lotus Nails, this is Aria. How can I help you today?" },
+          { "speaker": "Customer", "text": "Hi! I'm hoping to book a gel manicure for tomorrow afternoon." },
+          { "speaker": "AI", "text": "Sure thing — I have a 2:15 with Linh. Want me to lock that in?" }
+        ]
+      },
+      {
+        "label": "Massage & Spa",
+        "title": "Rescheduling a 90-min session",
+        "blurb": "A returning client needs a new time. OrderAI rebooks and confirms by text.",
+        "lines": [
+          { "speaker": "Customer", "text": "Hi, it's Jennifer — I need to move my 2 PM deep tissue today." },
+          { "speaker": "AI", "text": "Of course, Jennifer. I can do Sunday at 3 PM — still with Maya?" },
+          { "speaker": "Customer", "text": "Yes, perfect." }
+        ]
+      },
+      {
+        "label": "Restaurant",
+        "title": "Friday night reservation",
+        "blurb": "Peak dinner rush. OrderAI offers an alternate time and notes an occasion.",
+        "lines": [
+          { "speaker": "Customer", "text": "Table for four tonight at 7:30?" },
+          { "speaker": "AI", "text": "7:30 is full — I can do 8:00, or 7:00 at the bar. Which works?" },
+          { "speaker": "Customer", "text": "8:00 — it's our anniversary, actually." }
+        ]
+      },
+      {
+        "label": "Clinic",
+        "title": "Booking a follow-up visit",
+        "blurb": "An after-hours patient calls for a follow-up. OrderAI books them and texts a confirmation.",
+        "lines": [
+          { "speaker": "AI", "text": "Thanks for calling Sunrise Family Clinic, this is Aria. How can I help you?" },
+          { "speaker": "Customer", "text": "Hi, I need to schedule a follow-up with Dr. Patel for next week." },
+          { "speaker": "AI", "text": "Of course — I have an opening Tuesday at 11:30 AM. Want me to lock that in?" }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Simple pricing that pays for itself",
+    "subheading": "One saved booking usually covers the month. Cancel anytime.",
+    "perMonth": "/month",
+    "badge": {
+      "mostPopular": "MOST POPULAR"
+    },
+    "starter": {
+      "name": "Starter",
+      "price": "$79",
+      "tagline": "For a single busy location getting started.",
+      "features": [
+        "Up to 200 calls/month",
+        "1 business location",
+        "Appointment booking",
+        "Voicemail transcription",
+        "Email support"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "growth": {
+      "name": "Growth",
+      "price": "$149",
+      "tagline": "For growing shops that can't miss a booking.",
+      "features": [
+        "Up to 800 calls/month",
+        "Up to 3 locations",
+        "Multi-language (EN / ES / 中文 / Vietnamese)",
+        "CRM integration (Square, Toast, Mindbody)",
+        "SMS confirmations",
+        "Priority support"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$249",
+      "tagline": "For multi-location operators who want it all.",
+      "features": [
+        "Unlimited calls",
+        "Unlimited locations",
+        "Custom voice & branding",
+        "Dedicated account manager",
+        "API access"
+      ],
+      "cta": "Contact Sales"
+    }
+  },
+  "testimonials": {
+    "heading": "Loved by shop owners like you",
+    "subheading": "Real quotes go here once early customers are onboarded.",
+    "items": [
+      {
+        "quote": "We used to lose calls every weekend. Now they all get answered and booked. We're recovering around [X] bookings a month we would have missed.",
+        "attribution": "[Owner Name, Owner of [Nail Salon], [City, ST]]"
+      },
+      {
+        "quote": "My front desk can finally focus on clients in the room. OrderAI handles the phone and texts everyone their confirmation. Setup took about [X] minutes.",
+        "attribution": "[Owner Name, Owner of [Massage & Spa], [City, ST]]"
+      },
+      {
+        "quote": "During the Friday rush it answers every line at once. We stopped hearing 'I called but no one picked up.' Worth it for the [X] saved orders alone.",
+        "attribution": "[Owner Name, Owner of [Restaurant], [City, ST]]"
+      },
+      {
+        "quote": "After-hours calls used to bounce to voicemail. Now patients get scheduled the moment they call, and reminders cut our no-shows by about [X]%. Setup took about [X] minutes.",
+        "attribution": "[Owner Name, Practice Manager of [Clinic], [City, ST]]"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Questions, answered",
+    "subheading": "Everything you need to know before your first call.",
+    "q1": {
+      "question": "How do I get started?",
+      "answer": "You sign up, tell us your hours and services, and forward your existing line to OrderAI. Most shops are live in about 10 minutes — no installs, no new hardware."
+    },
+    "q2": {
+      "question": "Do I need a new phone number?",
+      "answer": "No. You keep your current number. Calls forward to OrderAI when you're busy or closed, so customers never notice a difference."
+    },
+    "q3": {
+      "question": "What if the AI doesn't understand a customer?",
+      "answer": "It asks a clarifying question, just like a good receptionist. If it still can't help, it warm-transfers to your staff or takes a clear message and texts you a summary."
+    },
+    "q4": {
+      "question": "Which languages does it support?",
+      "answer": "English, Spanish, Mandarin, and Vietnamese. It detects the caller's language and responds naturally in it."
+    },
+    "q5": {
+      "question": "Does it connect to my booking or POS system?",
+      "answer": "Yes. Growth and Pro plans sync bookings and customer details with Square, Toast, and Mindbody so your calendar stays accurate."
+    },
+    "q6": {
+      "question": "Is my customer data secure?",
+      "answer": "Call data is encrypted in transit and at rest, and is only used to handle your calls. We never sell customer data."
+    },
+    "q7": {
+      "question": "How long does setup take?",
+      "answer": "Around 10 minutes for a single location. We walk you through forwarding and confirm a test call before you go live."
+    },
+    "q8": {
+      "question": "What's the cancellation policy?",
+      "answer": "Month-to-month, cancel anytime from your dashboard. No long-term contract and no cancellation fee."
+    }
+  },
+  "trialForm": {
+    "heading": "Start your free trial",
+    "subheading": "Tell us about your shop. We'll set you up and have OrderAI answering within a day.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Jane Doe",
+    "businessNameLabel": "Business Name",
+    "businessNamePlaceholder": "Your shop",
+    "businessTypeLabel": "Business Type",
+    "businessTypePlaceholder": "Select your business type",
+    "businessTypeNail": "Nail Salon",
+    "businessTypeSpa": "Massage & Spa",
+    "businessTypeRestaurant": "Restaurant",
+    "businessTypeClinic": "Clinic",
+    "phoneLabel": "Phone",
+    "phonePlaceholder": "(555) 123-4567",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Start Free Trial",
+    "footnote": "No credit card required · We'll never share your info",
+    "successAlert": "Thanks! We'll be in touch."
+  },
+  "footer": {
+    "tagline": "The AI phone assistant for nail salons, spas, restaurants, and clinics.",
+    "industries": {
+      "nail": "Nail Salons",
+      "spa": "Spas",
+      "restaurant": "Restaurants",
+      "clinic": "Clinics"
+    },
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "useCases": "Use Cases",
+      "pricing": "Pricing",
+      "demo": "Demo"
+    },
+    "contact": {
+      "title": "Contact",
+      "hours": "Mon–Fri, 9–6 PT",
+      "bookCall": "Book a call"
+    },
+    "social": {
+      "label": "Follow us"
+    },
+    "rights": "All rights reserved."
+  }
+}

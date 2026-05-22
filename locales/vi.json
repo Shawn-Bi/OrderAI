@@ -1,0 +1,300 @@
+{
+  "language": {
+    "label": "Ngôn ngữ",
+    "en": "English",
+    "zh": "中文",
+    "es": "Español",
+    "vi": "Tiếng Việt"
+  },
+  "navbar": {
+    "features": "Tính năng",
+    "useCases": "Trường hợp sử dụng",
+    "pricing": "Bảng giá",
+    "faq": "FAQ",
+    "cta": "Dùng thử miễn phí",
+    "toggleMenu": "Mở menu"
+  },
+  "hero": {
+    "badge": "Trợ lý điện thoại AI cho cửa hàng địa phương",
+    "title": "Đừng bỏ lỡ thêm cuộc gọi nào. <brand>OrderAI nghe máy</brand> để bạn tập trung vào khách hàng.",
+    "subtitle": "Được xây dựng cho tiệm nail, spa, nhà hàng và phòng khám. Đặt lịch hẹn, nhận đơn và trả lời câu hỏi — 24/7, bằng tiếng Anh, tiếng Tây Ban Nha, tiếng Quan Thoại và tiếng Việt. Cài đặt trong 10 phút. Không cần số điện thoại mới.",
+    "ctaPrimary": "Dùng thử miễn phí",
+    "ctaSecondary": "Nghe demo trực tiếp →",
+    "ctaNote": "Không cần thẻ tín dụng · Hoạt động với số hiện tại của bạn",
+    "card": {
+      "incoming": "Cuộc gọi đến",
+      "phone": "(713) 555-0142",
+      "answering": "OrderAI đang trả lời...",
+      "answeringSub": "Đang đặt lịch cho người gọi — không cần nhân viên",
+      "playCaption": "Phát cuộc gọi mẫu",
+      "playAria": "Phát cuộc gọi demo",
+      "pauseAria": "Tạm dừng cuộc gọi demo"
+    }
+  },
+  "useCases": {
+    "heading": "Mỗi cuộc gọi nhỡ là tiền đi ra khỏi cửa",
+    "subheading": "Đây là cái giá thực sự mà một cuộc gọi không được trả lời khiến cửa hàng của bạn phải trả.",
+    "items": [
+      {
+        "industry": "Tiệm nail",
+        "when": "8:42 tối",
+        "loss": "Mất lịch hẹn $60",
+        "problem": "Một khách mới gọi để đặt làm móng gel cho ngày mai. Không ai nghe máy.",
+        "save": "OrderAI nghe máy, đặt lịch cho cô ấy và nhắc đến ưu đãi $10 ngày thứ Ba. Cứu được đơn."
+      },
+      {
+        "industry": "Massage & spa",
+        "when": "Thứ Bảy 11 giờ sáng",
+        "loss": "Hủy buổi trị liệu $120",
+        "problem": "Một khách quen cần đổi lịch. Hộp thư thoại đã đầy — buổi trị liệu 90 phút không bao giờ được đặt lại.",
+        "save": "OrderAI nghe máy, đề xuất Chủ Nhật lúc 3 giờ chiều và xác nhận qua tin nhắn. Giữ được khách."
+      },
+      {
+        "industry": "Nhà hàng",
+        "when": "Thứ Sáu 7:15 tối",
+        "loss": "Mất ~$180 tiền đơn hàng",
+        "problem": "Giờ cao điểm bữa tối — 4 người đang chờ máy, 2 người cúp máy trước khi có ai kịp trả lời.",
+        "save": "OrderAI xử lý cả 4 cùng lúc: 2 đặt bàn, 1 đơn mang đi và 1 câu hỏi về giờ mở cửa."
+      },
+      {
+        "industry": "Phòng khám",
+        "when": "Thứ Ba 6:15 tối",
+        "loss": "Mất buổi tái khám $180",
+        "problem": "Một bệnh nhân gọi ngoài giờ làm việc để đặt lịch tái khám. Cuộc gọi chuyển sang hộp thư thoại.",
+        "save": "OrderAI đặt lịch hẹn, gửi tin nhắn xác nhận trong ngày và đánh dấu cho quầy lễ tân theo dõi. Giữ được bệnh nhân."
+      }
+    ]
+  },
+  "features": {
+    "heading": "Mọi việc quầy lễ tân của bạn làm — trên mỗi cuộc gọi",
+    "subheading": "Không cần viết kịch bản. Không cần thiết bị mới. Nó trả lời đúng như cách bạn sẽ làm.",
+    "items": [
+      {
+        "title": "Trả lời cuộc gọi 24/7",
+        "desc": "Mọi cuộc gọi đều được trả lời ngay hồi chuông đầu tiên — giờ cao điểm bữa trưa, đêm khuya hay ngày bạn nghỉ."
+      },
+      {
+        "title": "Đặt lịch hẹn thông minh",
+        "desc": "Kiểm tra khung giờ trống, đặt lịch cho khách và đọc lại giờ để xác nhận."
+      },
+      {
+        "title": "Thư thoại tự động",
+        "desc": "Nếu một yêu cầu cần đến bạn, nó ghi lại lời nhắn rõ ràng và gửi bản tóm tắt cho bạn qua tin nhắn."
+      },
+      {
+        "title": "Hỗ trợ đa ngôn ngữ",
+        "desc": "Chào và hỗ trợ người gọi bằng tiếng Anh, tiếng Tây Ban Nha, tiếng Quan Thoại và tiếng Việt."
+      },
+      {
+        "title": "Chuyển máy trực tiếp cho nhân viên",
+        "desc": "Biết khi nào một cuộc gọi cần đến gặp người thật và chuyển máy kèm thông báo cho đội ngũ của bạn."
+      },
+      {
+        "title": "Đồng bộ CRM",
+        "desc": "Đẩy mọi lịch đặt và thông tin khách hàng vào Square, Toast hoặc Mindbody."
+      }
+    ]
+  },
+  "demo": {
+    "heading": "Nghe nó trả lời một cuộc gọi thật",
+    "subheading": "Chọn một ngành và lắng nghe. Đây chính xác là cách người gọi của bạn sẽ được chào đón.",
+    "roleAI": "OrderAI",
+    "roleCaller": "Khách gọi",
+    "audioFallback": "Trình duyệt của bạn không hỗ trợ phần tử âm thanh.",
+    "scriptNote": "Kịch bản đầy đủ ~50 giây trong /scripts — âm thanh chỉ là bản tạm cho đến khi được tạo bằng ElevenLabs.",
+    "tabs": [
+      {
+        "label": "Tiệm nail",
+        "title": "Đặt lịch làm móng gel",
+        "blurb": "Một khách mới gọi ngoài giờ làm việc. OrderAI đặt lịch cho cô ấy và thêm một ưu đãi.",
+        "lines": [
+          { "speaker": "AI", "text": "Cảm ơn bạn đã gọi Lotus Nails, tôi là Aria. Hôm nay tôi có thể giúp gì cho bạn?" },
+          { "speaker": "Customer", "text": "Chào! Tôi muốn đặt lịch làm móng gel vào chiều mai." },
+          { "speaker": "AI", "text": "Được ngay — tôi có khung 2:15 với Linh. Bạn có muốn tôi giữ chỗ đó không?" }
+        ]
+      },
+      {
+        "label": "Massage & spa",
+        "title": "Đổi lịch buổi trị liệu 90 phút",
+        "blurb": "Một khách quay lại cần giờ mới. OrderAI đặt lại lịch và xác nhận qua tin nhắn.",
+        "lines": [
+          { "speaker": "Customer", "text": "Chào, tôi là Jennifer — tôi cần dời buổi massage mô sâu lúc 2 giờ chiều hôm nay." },
+          { "speaker": "AI", "text": "Tất nhiên rồi, Jennifer. Tôi có thể xếp Chủ Nhật lúc 3 giờ chiều — vẫn với Maya chứ?" },
+          { "speaker": "Customer", "text": "Vâng, hoàn hảo." }
+        ]
+      },
+      {
+        "label": "Nhà hàng",
+        "title": "Đặt bàn tối thứ Sáu",
+        "blurb": "Giờ cao điểm bữa tối. OrderAI đề xuất giờ thay thế và ghi chú một dịp đặc biệt.",
+        "lines": [
+          { "speaker": "Customer", "text": "Bàn cho bốn người tối nay lúc 7:30 được không?" },
+          { "speaker": "AI", "text": "7:30 hết chỗ rồi — tôi có thể xếp 8:00, hoặc 7:00 ở quầy bar. Giờ nào hợp với bạn?" },
+          { "speaker": "Customer", "text": "8:00 nhé — thật ra hôm nay là kỷ niệm của chúng tôi." }
+        ]
+      },
+      {
+        "label": "Phòng khám",
+        "title": "Đặt lịch tái khám",
+        "blurb": "Một bệnh nhân gọi ngoài giờ để tái khám. OrderAI đặt lịch và nhắn tin xác nhận.",
+        "lines": [
+          { "speaker": "AI", "text": "Cảm ơn bạn đã gọi Sunrise Family Clinic, tôi là Aria. Tôi có thể giúp gì cho bạn?" },
+          { "speaker": "Customer", "text": "Chào, tôi cần đặt lịch tái khám với bác sĩ Patel vào tuần sau." },
+          { "speaker": "AI", "text": "Được ngay — tôi có khung thứ Ba lúc 11:30 sáng. Bạn có muốn tôi giữ chỗ đó không?" }
+        ]
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Giá đơn giản, tự nó hoàn vốn",
+    "subheading": "Chỉ một lịch đặt được cứu thường đủ bù cho cả tháng. Hủy bất cứ lúc nào.",
+    "perMonth": "/tháng",
+    "badge": {
+      "mostPopular": "Phổ Biến Nhất"
+    },
+    "starter": {
+      "name": "Khởi đầu",
+      "price": "$79",
+      "tagline": "Dành cho một địa điểm đông khách đang bắt đầu.",
+      "features": [
+        "Tối đa 200 cuộc gọi/tháng",
+        "1 địa điểm kinh doanh",
+        "Đặt lịch hẹn",
+        "Chép lời thư thoại",
+        "Hỗ trợ qua email"
+      ],
+      "cta": "Dùng thử miễn phí"
+    },
+    "growth": {
+      "name": "Tăng trưởng",
+      "price": "$149",
+      "tagline": "Dành cho cửa hàng đang phát triển không thể bỏ lỡ lịch đặt.",
+      "features": [
+        "Tối đa 800 cuộc gọi/tháng",
+        "Tối đa 3 địa điểm",
+        "Đa ngôn ngữ (EN / ES / 中文 / Tiếng Việt)",
+        "Tích hợp CRM (Square, Toast, Mindbody)",
+        "Xác nhận qua SMS",
+        "Hỗ trợ ưu tiên"
+      ],
+      "cta": "Dùng thử miễn phí"
+    },
+    "pro": {
+      "name": "Chuyên nghiệp",
+      "price": "$249",
+      "tagline": "Dành cho chủ nhiều địa điểm muốn có tất cả.",
+      "features": [
+        "Cuộc gọi không giới hạn",
+        "Địa điểm không giới hạn",
+        "Giọng nói & thương hiệu tùy chỉnh",
+        "Quản lý tài khoản riêng",
+        "Truy cập API"
+      ],
+      "cta": "Liên hệ bộ phận bán hàng"
+    }
+  },
+  "testimonials": {
+    "heading": "Được các chủ cửa hàng như bạn yêu thích",
+    "subheading": "Trích dẫn thật sẽ xuất hiện ở đây khi những khách hàng đầu tiên bắt đầu sử dụng.",
+    "items": [
+      {
+        "quote": "Trước đây chúng tôi mất cuộc gọi mỗi cuối tuần. Giờ tất cả đều được trả lời và đặt lịch. Chúng tôi đang lấy lại khoảng [X] lịch đặt mỗi tháng mà lẽ ra đã bỏ lỡ.",
+        "attribution": "[Tên chủ, chủ của [Tiệm nail], [Thành phố, ST]]"
+      },
+      {
+        "quote": "Quầy lễ tân của tôi cuối cùng cũng có thể tập trung vào khách đang ở trong tiệm. OrderAI lo điện thoại và nhắn xác nhận cho mọi người. Cài đặt mất khoảng [X] phút.",
+        "attribution": "[Tên chủ, chủ của [Massage & spa], [Thành phố, ST]]"
+      },
+      {
+        "quote": "Trong giờ cao điểm thứ Sáu, nó trả lời mọi đường dây cùng lúc. Chúng tôi không còn nghe 'tôi gọi mà không ai bắt máy' nữa. Chỉ riêng [X] đơn được cứu đã đáng giá.",
+        "attribution": "[Tên chủ, chủ của [Nhà hàng], [Thành phố, ST]]"
+      },
+      {
+        "quote": "Trước đây các cuộc gọi ngoài giờ đều rơi vào hộp thư thoại. Giờ bệnh nhân được đặt lịch ngay khi gọi đến, và lời nhắc giúp giảm tỷ lệ vắng mặt khoảng [X]%. Cài đặt mất khoảng [X] phút.",
+        "attribution": "[Tên chủ, quản lý của [Phòng khám], [Thành phố, ST]]"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Câu hỏi, đã được giải đáp",
+    "subheading": "Mọi điều bạn cần biết trước cuộc gọi đầu tiên.",
+    "q1": {
+      "question": "Tôi bắt đầu như thế nào?",
+      "answer": "Bạn đăng ký, cho chúng tôi biết giờ làm việc và dịch vụ của bạn, rồi chuyển hướng đường dây hiện tại sang OrderAI. Hầu hết cửa hàng hoạt động trong khoảng 10 phút — không cài đặt, không thiết bị mới."
+    },
+    "q2": {
+      "question": "Tôi có cần số điện thoại mới không?",
+      "answer": "Không. Bạn giữ số hiện tại. Cuộc gọi được chuyển hướng sang OrderAI khi bạn bận hoặc đóng cửa, nên khách hàng không bao giờ nhận ra sự khác biệt."
+    },
+    "q3": {
+      "question": "Nếu AI không hiểu khách hàng thì sao?",
+      "answer": "Nó hỏi lại một câu để làm rõ, giống như một nhân viên lễ tân giỏi. Nếu vẫn không giúp được, nó chuyển máy kèm thông báo cho nhân viên của bạn hoặc ghi lại lời nhắn rõ ràng và gửi bản tóm tắt cho bạn qua tin nhắn."
+    },
+    "q4": {
+      "question": "Nó hỗ trợ những ngôn ngữ nào?",
+      "answer": "Tiếng Anh, tiếng Tây Ban Nha, tiếng Quan Thoại và tiếng Việt. Nó nhận diện ngôn ngữ của người gọi và đáp lại một cách tự nhiên bằng ngôn ngữ đó."
+    },
+    "q5": {
+      "question": "Nó có kết nối với hệ thống đặt lịch hoặc POS của tôi không?",
+      "answer": "Có. Gói Tăng trưởng và Chuyên nghiệp đồng bộ lịch đặt và thông tin khách hàng với Square, Toast và Mindbody để lịch của bạn luôn chính xác."
+    },
+    "q6": {
+      "question": "Dữ liệu khách hàng của tôi có an toàn không?",
+      "answer": "Dữ liệu cuộc gọi được mã hóa khi truyền và khi lưu trữ, và chỉ được dùng để xử lý cuộc gọi của bạn. Chúng tôi không bao giờ bán dữ liệu khách hàng."
+    },
+    "q7": {
+      "question": "Cài đặt mất bao lâu?",
+      "answer": "Khoảng 10 phút cho một địa điểm. Chúng tôi hướng dẫn bạn chuyển hướng cuộc gọi và xác nhận một cuộc gọi thử trước khi bạn chính thức hoạt động."
+    },
+    "q8": {
+      "question": "Chính sách hủy như thế nào?",
+      "answer": "Theo từng tháng, hủy bất cứ lúc nào từ bảng điều khiển của bạn. Không hợp đồng dài hạn và không phí hủy."
+    }
+  },
+  "trialForm": {
+    "heading": "Bắt đầu dùng thử miễn phí",
+    "subheading": "Cho chúng tôi biết về cửa hàng của bạn. Chúng tôi sẽ thiết lập và để OrderAI trả lời trong vòng một ngày.",
+    "nameLabel": "Tên",
+    "namePlaceholder": "Nguyễn Văn A",
+    "businessNameLabel": "Tên doanh nghiệp",
+    "businessNamePlaceholder": "Cửa hàng của bạn",
+    "businessTypeLabel": "Loại hình kinh doanh",
+    "businessTypePlaceholder": "Chọn loại hình kinh doanh",
+    "businessTypeNail": "Tiệm nail",
+    "businessTypeSpa": "Massage & spa",
+    "businessTypeRestaurant": "Nhà hàng",
+    "businessTypeClinic": "Phòng khám",
+    "phoneLabel": "Điện thoại",
+    "phonePlaceholder": "(555) 123-4567",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Dùng thử miễn phí",
+    "footnote": "Không cần thẻ tín dụng · Chúng tôi sẽ không bao giờ chia sẻ thông tin của bạn",
+    "successAlert": "Cảm ơn! Chúng tôi sẽ liên hệ với bạn."
+  },
+  "footer": {
+    "tagline": "Trợ lý điện thoại AI cho tiệm nail, spa, nhà hàng và phòng khám.",
+    "industries": {
+      "nail": "Tiệm nail",
+      "spa": "Spa",
+      "restaurant": "Nhà hàng",
+      "clinic": "Phòng khám"
+    },
+    "product": {
+      "title": "Sản phẩm",
+      "features": "Tính năng",
+      "useCases": "Trường hợp sử dụng",
+      "pricing": "Bảng giá",
+      "demo": "Demo"
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "hours": "Thứ Hai–Thứ Sáu, 9–6 PT",
+      "bookCall": "Đặt lịch gọi"
+    },
+    "social": {
+      "label": "Theo dõi chúng tôi"
+    },
+    "rights": "Bảo lưu mọi quyền."
+  }
+}
