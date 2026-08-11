@@ -77,11 +77,11 @@ Defined as HSL CSS variables in `app/globals.css` and mapped in
 
 | Asset | Where | What to do |
 | ----- | ----- | ---------- |
-| **Demo audio** | `public/audio/demo-nail.mp3`, `demo-massage.mp3`, `demo-restaurant.mp3` | Generate with ElevenLabs from `scripts/` (see below). Until added, the audio players render but have nothing to play — handled gracefully, no errors. |
+| **Demo audio** | `public/audio/demo-nail.mp3` (Hero only) | **All four Demo tabs show a "coming soon" notice** — none plays audio yet, because `demo-nail.mp3`'s content does not match the nail script. The Hero play button still plays it (no transcript shown there). To enable a tab: add the mp3, verify it against that tab's script, then set its `audio:` path in `TAB_META` (`components/sections/demo.tsx`). See `public/audio/README.md`. |
 | **Testimonials** | `components/sections/testimonials.tsx` | Replace `[Owner Name…]` / `[City, ST]` / `[X]` placeholders with real, approved quotes. Do **not** invent names or metrics. |
 | **Trial form submit** | `components/sections/cta-form.tsx` | Currently `console.log` + `alert`. Wire to **Resend** or **Formspree** at the `// TODO: 接入 Resend / Formspree` marker. |
 | **Footer links / contact** | `components/sections/footer.tsx` | Replace `#` hrefs and `hello@orderai.example` with real URLs/email. |
-| **Phone number** | `components/sections/hero.tsx` | `(713) 555-0142` is a sample caller ID — swap if needed. |
+| **Phone number** | `locales/*.json` → `hero.card.phone` | `(938) 529-0469` is the demo caller ID — swap in all four locale files if needed. |
 
 No stock photos are used anywhere — visuals are CSS gradients, SVG, and
 Lucide icons by design.

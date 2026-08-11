@@ -23,7 +23,20 @@
       "PowerShell(& \"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" --version)",
       "Bash(git fetch *)",
       "Bash(git ls-tree *)",
-      "PowerShell(Get-WmiObject *)"
+      "PowerShell(Get-WmiObject *)",
+      "PowerShell(foreach \\($c in @\\('ffmpeg','ffmpeg.exe','winget','choco','python','node'\\)\\) { $p = \\(Get-Command $c -ErrorAction SilentlyContinue\\).Source; if \\($p\\) { \"$c => $p\" } else { \"$c => NOT FOUND\" } })",
+      "Bash(node -e \"console.log\\(require\\('ffmpeg-static'\\)\\)\")",
+      "Bash(C:/Users/10699/AppData/Local/Temp/claude/D--AI----AI-Projects-EatsAI-EatsAI-Website/2f201ba8-5f83-4e09-a3fd-00ab83a4975b/scratchpad/node_modules/ffmpeg-static/ffmpeg.exe -hide_banner -i 'OrderAI  SampleCall.m4a')",
+      "Bash(C:/Users/10699/AppData/Local/Temp/claude/D--AI----AI-Projects-EatsAI-EatsAI-Website/2f201ba8-5f83-4e09-a3fd-00ab83a4975b/scratchpad/node_modules/ffmpeg-static/ffmpeg.exe -hide_banner -i 'OrderAI  SampleCall.m4a' -f null -)",
+      "Bash(C:/Users/10699/AppData/Local/Temp/claude/D--AI----AI-Projects-EatsAI-EatsAI-Website/2f201ba8-5f83-4e09-a3fd-00ab83a4975b/scratchpad/node_modules/ffmpeg-static/ffmpeg.exe -hide_banner -y -i OrderAI-SampleCall.m4a -vn -c:a libmp3lame -b:a 128k -ar 44100 -ac 1 demo-nail.mp3)",
+      "Bash(npx tsc *)",
+      "Bash(echo \"=== tsc exit: $? ===\")",
+      "Bash(node -e ' *)",
+      "Bash(grep -o '/_next/static/css/[^\"\\\\\\\\]*')",
+      "PowerShell(Get-CimInstance *)",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(foreach \\($id in 25100, 19288, 29564\\) { try { Stop-Process -Id $id -Force -ErrorAction Stop; \"killed $id\" } catch { \"skip $id : $\\($_.Exception.Message\\)\" } })",
+      "PowerShell($n = @\\(Get-Process node -ErrorAction SilentlyContinue\\); \"node processes: $\\($n.Count\\)\"; $p = @\\(Get-NetTCPConnection -State Listen -LocalPort 3000 -ErrorAction SilentlyContinue\\); \"port 3000 listeners: $\\($p.Count\\)\")"
     ]
   }
 }

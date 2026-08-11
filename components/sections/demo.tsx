@@ -7,6 +7,7 @@ import {
   Flower2,
   UtensilsCrossed,
   Stethoscope,
+  Clock,
   type LucideIcon,
 } from "lucide-react";
 
@@ -14,11 +15,19 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Reveal } from "@/components/motion/reveal";
 
 // Stable per-tab config (value/icon/audio) lives in code; copy comes from i18n.
-const TAB_META: { value: string; icon: LucideIcon; audio: string }[] = [
-  { value: "nail", icon: Sparkles, audio: "/audio/demo-nail.mp3" },
-  { value: "massage", icon: Flower2, audio: "/audio/demo-massage.mp3" },
-  { value: "restaurant", icon: UtensilsCrossed, audio: "/audio/demo-restaurant.mp3" },
-  { value: "clinic", icon: Stethoscope, audio: "/audio/demo-clinic.mp3" },
+// `audio: null` means we have no recording that matches this tab's script yet —
+// the tab shows a "coming soon" notice instead of a player, so we never ship a
+// dead control or audio that contradicts the transcript printed beside it.
+// All four are currently null: demo-nail.mp3 exists but its content does not
+// match the gel-manicure script shown here.
+// TODO: fill in a path per tab as each call is recorded and verified against
+// its script (/audio/demo-nail.mp3, demo-massage.mp3, demo-restaurant.mp3,
+// demo-clinic.mp3). The player then appears automatically for that tab.
+const TAB_META: { value: string; icon: LucideIcon; audio: string | null }[] = [
+  { value: "nail", icon: Sparkles, audio: null },
+  { value: "massage", icon: Flower2, audio: null },
+  { value: "restaurant", icon: UtensilsCrossed, audio: null },
+  { value: "clinic", icon: Stethoscope, audio: null },
 ];
 
 type DemoTabCopy = {
@@ -68,14 +77,31 @@ export function Demo() {
                   <h3 className="text-xl font-bold text-ink">{tab.title}</h3>
                   <p className="mt-1 text-stone-600">{tab.blurb}</p>
 
-                  <audio
-                    controls
-                    preload="none"
-                    src={meta.audio}
-                    className="mt-6 w-full"
-                  >
-                    {t("demo.audioFallback")}
-                  </audio>
+                  {meta.audio ? (
+                    /* Native controls play the clip through in full — no duration
+                       cap, no truncation. preload="metadata" fetches only the
+                       header so the scrubber shows the real length up front. */
+                    <audio
+                      controls
+                      preload="metadata"
+                      src={meta.audio}
+                      className="mt-6 w-full"
+                    >
+                      {t("demo.audioFallback")}
+                    </audio>
+                  ) : (
+                    <div className="mt-6 flex items-center gap-3 rounded-xl border border-dashed border-stone-300 bg-stone-50/80 px-5 py-4">
+                      <Clock className="h-5 w-5 shrink-0 text-stone-400" />
+                      <div>
+                        <p className="text-sm font-medium text-stone-600">
+                          {t("demo.audioComingSoon")}
+                        </p>
+                        <p className="mt-0.5 text-xs text-stone-500">
+                          {t("demo.audioComingSoonSub")}
+                        </p>
+                      </div>
+                    </div>
+                  )}
 
                   <div className="mt-7 space-y-3 border-t border-stone-200 pt-6">
                     {tab.lines.map((line, idx) => (

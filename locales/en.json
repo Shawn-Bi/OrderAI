@@ -23,7 +23,7 @@
     "ctaNote": "No credit card required · Works with your current number",
     "card": {
       "incoming": "Incoming Call",
-      "phone": "(713) 555-0142",
+      "phone": "(938) 529-0469",
       "answering": "OrderAI is answering...",
       "answeringSub": "Booking the caller in — no staff needed",
       "playCaption": "Play sample call",
@@ -101,7 +101,9 @@
     "roleAI": "OrderAI",
     "roleCaller": "Caller",
     "audioFallback": "Your browser does not support the audio element.",
-    "scriptNote": "Full ~50-second script in /scripts — audio is a placeholder until generated with ElevenLabs.",
+    "audioComingSoon": "Demo audio coming soon",
+    "audioComingSoonSub": "This recording is in production. Read the sample script below in the meantime.",
+    "scriptNote": "Full ~50-second script in /scripts.",
     "tabs": [
       {
         "label": "Nail Salon",
@@ -190,7 +192,7 @@
         "Dedicated account manager",
         "API access"
       ],
-      "cta": "Contact Sales"
+      "cta": "Start Free Trial"
     }
   },
   "testimonials": {

@@ -23,7 +23,7 @@
     "ctaNote": "Sin tarjeta de crédito · Funciona con tu número actual",
     "card": {
       "incoming": "Llamada entrante",
-      "phone": "(713) 555-0142",
+      "phone": "(938) 529-0469",
       "answering": "OrderAI está contestando...",
       "answeringSub": "Agendando a quien llama — sin necesidad de personal",
       "playCaption": "Reproducir llamada de muestra",
@@ -101,7 +101,9 @@
     "roleAI": "OrderAI",
     "roleCaller": "Cliente",
     "audioFallback": "Tu navegador no admite el elemento de audio.",
-    "scriptNote": "Guion completo de ~50 segundos en /scripts — el audio es un marcador de posición hasta generarlo con ElevenLabs.",
+    "audioComingSoon": "Audio de demostración próximamente",
+    "audioComingSoonSub": "Esta grabación está en producción. Mientras tanto, lee el guion de ejemplo abajo.",
+    "scriptNote": "Guion completo de ~50 segundos en /scripts.",
     "tabs": [
       {
         "label": "Salón de uñas",
@@ -190,7 +192,7 @@
         "Gerente de cuenta dedicado",
         "Acceso a la API"
       ],
-      "cta": "Contactar a ventas"
+      "cta": "Prueba gratis"
     }
   },
   "testimonials": {

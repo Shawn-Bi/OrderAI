@@ -23,7 +23,7 @@
     "ctaNote": "Không cần thẻ tín dụng · Hoạt động với số hiện tại của bạn",
     "card": {
       "incoming": "Cuộc gọi đến",
-      "phone": "(713) 555-0142",
+      "phone": "(938) 529-0469",
       "answering": "OrderAI đang trả lời...",
       "answeringSub": "Đang đặt lịch cho người gọi — không cần nhân viên",
       "playCaption": "Phát cuộc gọi mẫu",
@@ -101,7 +101,9 @@
     "roleAI": "OrderAI",
     "roleCaller": "Khách gọi",
     "audioFallback": "Trình duyệt của bạn không hỗ trợ phần tử âm thanh.",
-    "scriptNote": "Kịch bản đầy đủ ~50 giây trong /scripts — âm thanh chỉ là bản tạm cho đến khi được tạo bằng ElevenLabs.",
+    "audioComingSoon": "Âm thanh demo sắp ra mắt",
+    "audioComingSoonSub": "Bản ghi này đang được thực hiện. Trong lúc chờ, hãy xem kịch bản mẫu bên dưới.",
+    "scriptNote": "Kịch bản đầy đủ ~50 giây trong /scripts.",
     "tabs": [
       {
         "label": "Tiệm nail",
@@ -190,7 +192,7 @@
         "Quản lý tài khoản riêng",
         "Truy cập API"
       ],
-      "cta": "Liên hệ bộ phận bán hàng"
+      "cta": "Dùng thử miễn phí"
     }
   },
   "testimonials": {

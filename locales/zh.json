@@ -23,7 +23,7 @@
     "ctaNote": "无需信用卡 · 兼容您现有的号码",
     "card": {
       "incoming": "来电",
-      "phone": "(713) 555-0142",
+      "phone": "(938) 529-0469",
       "answering": "OrderAI 正在接听...",
       "answeringSub": "正在为来电者下预约 —— 无需人手",
       "playCaption": "播放示例通话",
@@ -101,7 +101,9 @@
     "roleAI": "OrderAI",
     "roleCaller": "顾客",
     "audioFallback": "您的浏览器不支持音频元素。",
-    "scriptNote": "完整的约 50 秒脚本在 /scripts 目录 —— 在用 ElevenLabs 生成之前，音频仅为占位。",
+    "audioComingSoon": "演示音频即将上线",
+    "audioComingSoonSub": "该行业的录音正在制作中，可先查看下方的示例对话脚本。",
+    "scriptNote": "完整的约 50 秒脚本在 /scripts 目录。",
     "tabs": [
       {
         "label": "美甲店",
@@ -190,7 +192,7 @@
         "专属客户经理",
         "API 访问权限"
       ],
-      "cta": "联系销售"
+      "cta": "免费试用"
     }
   },
   "testimonials": {

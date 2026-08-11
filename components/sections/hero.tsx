@@ -14,16 +14,46 @@ export function Hero() {
   const [playing, setPlaying] = React.useState(false);
   const reduce = useReducedMotion();
 
+  // Button state mirrors the element's own events rather than being set by hand,
+  // so it can never stick on "playing" if playback stops for a reason we didn't
+  // initiate (end of clip, media error, OS/browser interruption).
+  React.useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    const onPlay = () => setPlaying(true);
+    const onStop = () => setPlaying(false);
+
+    audio.addEventListener("play", onPlay);
+    audio.addEventListener("playing", onPlay);
+    audio.addEventListener("pause", onStop);
+    audio.addEventListener("ended", onStop);
+    audio.addEventListener("error", onStop);
+
+    return () => {
+      audio.removeEventListener("play", onPlay);
+      audio.removeEventListener("playing", onPlay);
+      audio.removeEventListener("pause", onStop);
+      audio.removeEventListener("ended", onStop);
+      audio.removeEventListener("error", onStop);
+    };
+  }, []);
+
   const togglePlay = () => {
     const audio = audioRef.current;
     if (!audio) return;
-    if (playing) {
+
+    if (!audio.paused) {
       audio.pause();
-      setPlaying(false);
-    } else {
-      // Placeholder mp3 may be absent until generated via ElevenLabs — fail quietly.
-      audio.play().then(() => setPlaying(true)).catch(() => setPlaying(false));
+      return;
     }
+
+    // Replay from the top once the clip has run to completion.
+    if (audio.ended) audio.currentTime = 0;
+
+    // The clip plays through in full — there is deliberately no duration cap or
+    // timer here. If the file is missing, fail quietly and reset the button.
+    audio.play().catch(() => setPlaying(false));
   };
 
   return (
@@ -110,11 +140,12 @@ export function Hero() {
                 {t("hero.card.playCaption")}
               </p>
 
+              {/* preload="metadata" only fetches the header, but lets the browser
+                  know the real duration so it streams the clip through to the end. */}
               <audio
                 ref={audioRef}
                 src="/audio/demo-nail.mp3"
-                onEnded={() => setPlaying(false)}
-                preload="none"
+                preload="metadata"
               />
             </div>
           </div>
